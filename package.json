@@ -9,5 +9,8 @@
     "start": "node index"
   },
   "author": "Newton Lomar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
