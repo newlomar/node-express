@@ -14,7 +14,7 @@ leaderRouter
     })
     .post((req, res, next) => {
         res.end(
-            `Will add the promotion ${req.body.name} with details ${req.body.description}`
+            `Will add the leader ${req.body.name} with details ${req.body.description}`
         );
     })
     .put((req, res, next) => {
